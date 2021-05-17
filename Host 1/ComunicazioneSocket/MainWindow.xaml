@@ -1,0 +1,26 @@
+﻿<Window x:Class="ComunicazioneSocket.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComunicazioneSocket"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF151515">
+        <TextBox x:Name="txtIpAdd" HorizontalAlignment="Left" Height="30" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="226"/>
+        <TextBox x:Name="txtDestPort" HorizontalAlignment="Left" Height="30" Margin="10,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Destination IP Address" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,65,0,0" Text="Destination Port" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="txtMsg" HorizontalAlignment="Left" Height="55" Margin="28,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="btnInvia" Content="Invia" HorizontalAlignment="Left" Margin="60,217,0,0" VerticalAlignment="Top" Height="50" Width="126" Click="btnInvia_Click" Foreground="White" BorderBrush="White" Background="Black"/>
+        <Label Content="Inbox:" HorizontalAlignment="Left" Height="27" Margin="304,18,0,0" VerticalAlignment="Top" Width="46" Foreground="White"/>
+        <Label Content="Messaggio Da Inviare" HorizontalAlignment="Left" Margin="60,131,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <TextBox x:Name="txtRicezione" HorizontalAlignment="Left" Margin="304,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" Height="217" IsReadOnly="True"/>
+        <Button x:Name="btnSourceSocket" Content="Mostra Socket Sorgente" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Height="29" Width="141" Background="Black" BorderBrush="White" Foreground="White" Click="btnSourceSocket_Click"/>
+        <Label x:Name="lblSourceSocket" Content="" HorizontalAlignment="Left" Margin="10,346,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="btnRock" Content="Sasso" HorizontalAlignment="Left" Margin="304,272,0,0" VerticalAlignment="Top" Height="32" Width="46" Background="Black" BorderBrush="White" Foreground="White" Click="btnRock_Click"/>
+        <Button x:Name="btnPaper" Content="Carta" HorizontalAlignment="Left" Margin="388,272,0,0" VerticalAlignment="Top" Height="32" Width="46" Background="Black" BorderBrush="White" Foreground="White" Click="btnPaper_Click"/>
+        <Button x:Name="btnScissors" Content="Forbici" HorizontalAlignment="Left" Margin="471,272,0,0" VerticalAlignment="Top" Height="32" Width="46" Background="Black" BorderBrush="White" Foreground="White" Click="btnScissors_Click"/>
+
+    </Grid>
+</Window>
