@@ -6,14 +6,22 @@
         xmlns:local="clr-namespace:ComunicazioneSocket"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox x:Name="txtIpAdd" HorizontalAlignment="Left" Height="30" Margin="87,72,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="226"/>
-        <TextBox x:Name="txtDestPort" HorizontalAlignment="Left" Height="30" Margin="424,72,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
-        <TextBlock HorizontalAlignment="Left" Margin="87,52,0,0" Text="Destination IP Address" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="424,52,0,0" Text="Destination Port" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtMsg" HorizontalAlignment="Left" Height="55" Margin="66,176,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
-        <Button x:Name="btnInvia" Content="Invia" HorizontalAlignment="Left" Margin="74,261,0,0" VerticalAlignment="Top" Height="50" Width="126" Click="btnInvia_Click"/>
-        <Label x:Name="lblRicezione" Content="Label" HorizontalAlignment="Left" Height="152" Margin="409,176,0,0" VerticalAlignment="Top" Width="276"/>
+    <Grid Background="#FF00FF83">
+        <TextBox x:Name="txtDestPort" HorizontalAlignment="Left" Height="30" Margin="409,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236"/>
+        <TextBlock HorizontalAlignment="Left" Margin="66,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"><Run Text="Destination IP Address"/><Run Language="it-it" Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="409,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="106" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform><Run Text="Destination Port"/><Run Language="it-it" Text=":"/></TextBlock>
+        <TextBox x:Name="txtMsg" HorizontalAlignment="Left" Height="55" Margin="66,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="btnInvia" Content="Invia" HorizontalAlignment="Left" Margin="66,252,0,0" VerticalAlignment="Top" Height="50" Width="126" Click="btnInvia_Click"/>
+        <Label x:Name="lblRicezione" Content="" HorizontalAlignment="Left" Height="152" Margin="400,186,0,0" VerticalAlignment="Top" Width="276"/>
+        <TextBox x:Name="txtIpAdd" HorizontalAlignment="Left" Margin="66,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Height="30"/>
 
     </Grid>
 </Window>

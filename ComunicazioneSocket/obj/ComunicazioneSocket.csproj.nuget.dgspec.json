@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus f556uj\\source\\repos\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj": {}
+    "C:\\Users\\utente\\Desktop\\Socket\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus f556uj\\source\\repos\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj": {
+    "C:\\Users\\utente\\Desktop\\Socket\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus f556uj\\source\\repos\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj",
+        "projectUniqueName": "C:\\Users\\utente\\Desktop\\Socket\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj",
         "projectName": "ComunicazioneSocket",
-        "projectPath": "C:\\Users\\asus f556uj\\source\\repos\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj",
-        "packagesPath": "C:\\Users\\asus f556uj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus f556uj\\source\\repos\\ComunicazioneSocket\\ComunicazioneSocket\\obj\\",
+        "projectPath": "C:\\Users\\utente\\Desktop\\Socket\\ComunicazioneSocket\\ComunicazioneSocket\\ComunicazioneSocket.csproj",
+        "packagesPath": "C:\\Users\\utente\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\utente\\Desktop\\Socket\\ComunicazioneSocket\\ComunicazioneSocket\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\asus f556uj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
